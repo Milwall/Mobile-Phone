@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title> Contact </title>
+
+	<!-- This is the link to external NavMenu CSS -->
+	<LINK REL=StyleSheet HREF="NavMenu.css" TYPE="text/css">
+	<!-- This is the link to external MainStyle CSS -->
+	<LINK REL=StyleSheet HREF="MainStyle.css" TYPE="text/css">
+
+
+<script type="text/javascript">
+function validation()
+{
+var email = document.form.email.value;
+
+if (echeck(email)==false){
+    document.form.email.focus();
+    return false;
+}
+
+function echeck(str) {
+
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("Invalid E-mail ID")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+ 		 return true					
+	}
+}
+</script>
+
+</head>
+
+
+<body bgcolor="#00325C">
+
+
+	<div id="main_div">
+
+		<div id="nav">
+
+			<ul>
+
+				<li> <a href="index.html"> Home </a> <!-- this is link to home page -->
+
+				</li> <!--here end li -->
+
+			</ul> <!--here end ul -->
+
+
+			<ul>
+
+				<li> <a href="about.html"> About </a> <!-- this is link to about page -->
+
+				</li> <!--here end li -->
+
+			</ul> <!--here end ul -->
+
+
+
+
+			<ul>
+
+				<li> <a href="products.html"> Products </a> <!-- this is link to products page -->
+
+					<ul>
+
+						<li> <a href="apple_phones.html"> Apple phones </a> <!-- this is link to apple page --></li>
+						<li> <a href="htc_phones.html"> HTC phones </a> <!-- this is link to htc page --></li>
+						<li> <a href="nokia_phones.html"> Nokia phones </a> <!-- this is link to nokia page --></li>
+						<li> <a href="samsung_phones.html"> Samsung phones </a> <!-- this is link to samsung page --></li>
+
+					</ul> <!--here end internal ul -->
+
+				</li> <!--here end li -->
+
+			</ul> <!--here end ul -->
+
+
+			<ul>
+
+				<li> <a href="contacts.html"> Contacts </a> <!-- this is link to contacts page -->
+
+				</li> <!--here end li -->
+
+			</ul> <!--here end ul -->
+
+
+		</div> <!--here end nav -->
+
+<div id="ContactForm">
+
+		<br> </br>
+
+			<form method = "post" onSubmit="return validation()" action = "mailto:ko.likhachev@gmail.com">
+				<table>
+					<tr>
+						<tr>
+							<td colspan="2" id="comments" style="width:396px"/>
+								<span id="comments">Please Enter Your Name</span>
+							</td>
+						</tr>
+						<td>First Name:</td>
+						<td><input name="name" type="name" style="width:469px"/></td>
+					</tr>
+
+
+					<tr>
+						<tr>
+							<td colspan="2" id="comments" style="width:396px"/>
+								<span id="comments">Please Enter Your Email</span>
+							</td>
+						</tr>
+						<td>Email:</td>
+						<td><input name="email" type="email" style="width:469px"/></td>
+					</tr>
+
+					<tr>
+						<tr>
+							<td colspan="2" id="comments" style="width:396px"/>
+								<span id="comments">Please Enter Your Comments</span>
+							</td>
+						</tr>
+						<td>Comments:</td>
+						<td><textarea rows="5" cols="50" style="width:470px"></textarea>
+					</tr>
+				</table>
+				<div id="SendAndResetBotton">
+					<input type="submit" value="Send"/>
+					<input type="reset" value="Reset Form"/>
+				</div>
+				
+			</form>
+
+			<br/>
+			<img src="p_image/twitter_logo.png" alt="Add" style="width:20px; height:20px;">
+							<a href="http://twitter.com/share?text=The%20MobilePhone%20Company" class="twitter-share-button">Tweet</a>
+
+			<script>
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			</script>
+
+			<div id="comments2">
+				Please Find Our Location on the Map
+			</div>
+
+			</div>	<!-- here end contactForm -->
+
+
+			<div id ="map">
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2382.03274676373!2d-6.2573569!3d53.34267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9bab0c8951%3A0xda304d09f27d26dd!2s30+Nassau+St%2C+Dublin+2!5e0!3m2!1sen!2sie!4v1418512200459" width="600" height="290" frameborder="0" style="border:0"></iframe>
+			</div>
+
+			<div id="carriersContact">
+				<img src="p_image/carriers.png" alt="Carriers">
+			</div>
+
+		<div id="footer">
+				All Rights Reserved @ 2014
+			</div>
+
+	</div> <!--here end main_div -->
+
+
+</body>
+
+</html>

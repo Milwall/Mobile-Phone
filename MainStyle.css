@@ -1,0 +1,322 @@
+	
+#main_div {
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	width: 800px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: solid #000 1px;
+	background-color: #FFFFFF;
+	}
+	
+#main_div2 {
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	width: 800px;
+	height: 765px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: solid #000 1px;
+	background-color: #FFFFFF;
+	}
+
+
+
+/*<!--###################################################
+#########################INDEX PAGE######################
+-->*/
+
+#main_div1 {
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	width: 800px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: solid #000 1px;
+	background-color: #FFFFFF;
+	background-image: url('p_image/background.png');
+}
+
+#greetings {
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	font-family: Tahoma;
+	color: #000000;
+	font-size: 16px;
+}
+
+#add {
+	float: left;
+	margin-top: 1px;
+}
+
+/*<!--##################################################
+#########################INDEX PAGE END#################
+-->*/
+
+
+
+/*<!--##################################################
+#########################PRODUCT PAGE###################
+-->*/
+
+#paypal1{
+	margin-left: 100px;
+	margin-top: 350px;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+#paypal{
+	margin-left: 50px;
+	margin-top: 550px;
+	position: absolute;
+}
+
+#test{
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 700px;
+	height: 120px;
+	border: solid #000000 1px;
+	display: block;
+	
+}
+
+#PhoneWrapper{
+	margin-top: 20px;
+	margin-left: center;
+}
+
+#title,#price{
+	text-align: center;
+	color: #09F;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+#apple {
+	text-align: center;
+	clear:left;
+	width: 200px;
+	display: block;
+	float: left;
+}
+
+#htc,#nokia,#samsung {
+	text-align: center;
+	width: 200px;
+	display: block;
+	float: left;
+}
+
+h3{
+color:#09F;
+}
+
+#phoneContainer {
+	float:left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+#phoneText {
+	float: left;
+	margin-top: 20px;
+	width: 400px;
+	height:360px;
+	font-size: 14px;
+	font-family: Tahoma;
+	color: #000;
+}
+
+#buttons {
+	clear: both;
+	float: left;
+	margin-left: 110px;
+}
+
+/*<!--#######################################################
+#########################--PRODUCT PAGE END--################
+-->*/
+
+
+/* unvisited link */
+a:link {
+	color: #09F;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #00FF00;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: red;
+	text-decoration: none;
+}
+
+/*<!--###############################################################################
+#########################--ABOUT PAGE--##############################################
+-->*/
+
+#Who {
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	font-family: Tahoma;
+	color: #000;
+	font-size: 16px;
+}
+
+#ncirl{
+	margin-left:64px;
+
+}
+
+/*<!--###############################################################################
+#########################--CONTACT PAGE--############################################
+-->*/
+
+
+#ContactForm  {
+	color: #fff;
+	font-family: Tahoma;
+	font-size: 12px;
+	background-color: #393939;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin-top: 50px;
+	margin-left: 100px;
+    	border:solid 1px black;
+   	padding:5px;
+	width: 600px;
+	height: 350px;
+}
+
+#twitter{
+	float:left;
+}
+
+#map {
+	float:left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+#comments{
+	color: #fff;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin-left: 63px;
+}
+
+#comments2{
+	color: #fff;
+	font-family: Tahoma;
+	font-size: 16px;
+	margin-left: 180px;
+	margin-top: 10px;
+}
+
+#SendAndResetBotton{
+	margin-left: 410px;
+}
+
+/*
+<!-- #####################################Video######################################-->
+*/
+
+#Video{
+	margin: 60px;
+	float: left;
+}
+
+
+/*<!--################################################################################
+#####################################--FOOTER--#######################################
+-->*/
+
+#footer{
+	width: 800px;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	border-top: solid #FFF 1px;
+	border-bottom:solid #000 1px;
+	background-color:#393939;
+	color: white;
+	font-size: 12px;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+#footerPhone{
+	width: 800px;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 774px;
+	border-top: solid #FFF 1px;
+	border-bottom:solid #000 1px;
+	background-color:#393939;
+	color: white;
+	font-size: 12px;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+
+#carriers {
+	width: 800px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: 724px;
+}
+
+#carriersAbout {
+	width: 800px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: 16px;
+}
+
+#carriersProduct {
+	width: 800px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: 77px;
+}
+
+#carriersContact {
+	width: 800px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: 312px;
+}
+
+#countdown{
+	margin-top: -75px;
+	margin-left: 220px;
+}
+
+
+
